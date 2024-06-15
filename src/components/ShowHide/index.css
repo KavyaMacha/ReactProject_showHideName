@@ -1,0 +1,65 @@
+/* index.css */
+
+/* Container styles */
+.show-hide-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #fddddb;
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+}
+
+/* Heading styles */
+.heading {
+  font-size: 36px;
+  color: #dd1264;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Button container styles */
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Toggle button styles */
+.toggle-button {
+  background-color: #fa7257;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 0 10px;
+}
+
+.toggle-button:hover {
+  background-color: #fc63a7;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.toggle-button:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Name styles */
+.name {
+  font-size: 24px;
+  color: #000000;
+  margin-top: 10px;
+  text-align: center;
+}
